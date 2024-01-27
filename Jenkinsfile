@@ -27,7 +27,6 @@ pipeline {
     stage('deploy') {
       steps {
         echo 'hahahah'
-        waitUntil(initialRecurrencePeriod: 1)
       }
     }
 
